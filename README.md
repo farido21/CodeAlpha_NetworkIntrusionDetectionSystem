@@ -38,7 +38,7 @@ CodeAlpha_NetworkIntrusionDetectionSystem/
 ## Setup
 
 ```bash
-git clone https://github.com/<your-username>/CodeAlpha_NetworkIntrusionDetectionSystem.git
+git clone https://github.com/farido21/CodeAlpha_NetworkIntrusionDetectionSystem.git
 cd CodeAlpha_NetworkIntrusionDetectionSystem
 pip install -r requirements.txt
 ```
