@@ -111,7 +111,11 @@ integration.
 | Response mechanism for detected intrusions | Alert logging + cooldown throttling; extensible hook for auto-block/notify |
 | (Optional) Visualize attacks | `dashboard.py` — bar/line charts of alerts |
 
- ## Sample Output Below is a real detection run against a simulated port scan (nmap -p 1-1000 127.0.0.1). The NIDS correctly flagged both a port scan and a SYN flood pattern from the same source: ![Dashboard](dashboard_output.png)
+## Sample Output
+
+Below is a real detection run against a simulated port scan (nmap -p 1-1000 127.0.0.1). The NIDS correctly flagged both a port scan and a SYN flood pattern from the same source:
+
+![Dashboard](dashboard_output.png)
  
 ## Disclaimer
 
